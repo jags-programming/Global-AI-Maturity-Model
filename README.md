@@ -72,7 +72,7 @@ We welcome all contributors — strategists, data scientists, researchers, devel
 
 ### 👇 How to Get Started:
 - Read our [CONTRIBUTING.md](.github/CONTRIBUTING.md)
-- Check the [open issues](https://github.com/jags-programming/Global-AI-Maturity-Model-/issues)
+- Check the [open issues](https://github.com/jags-programming/Global-AI-Maturity-Model/issues)
 - Submit enhancements, new use cases, or translations
 - Join discussions and suggest new pillars or criteria
 
@@ -89,7 +89,7 @@ GAIMM is released under the [Creative Commons Attribution 4.0 International (CC 
 ## 🌟 Stay Connected
 
 - **Website (Coming Soon)**: https://gaimm.org
-- **Community Forum**: [GitHub Discussions](https://github.com/jags-programming/Global-AI-Maturity-Model-/discussions)
+- **Community Forum**: [GitHub Discussions](https://github.com/jags-programming/Global-AI-Maturity-Model/discussions)
 - **Twitter / LinkedIn**: `#GAIMM`, `#AIForGood`, `#OpenAIFramework`
 
 Let’s build the future of responsible, scalable AI together. 🤝
