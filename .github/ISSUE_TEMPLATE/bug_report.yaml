@@ -1,0 +1,56 @@
+name: 🐛 Bug Report
+description: File a bug report to help us improve
+title: "[BUG] <short description here>"
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the issue you're facing as clearly as possible.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: What platform, version, or system are you using?
+      placeholder: e.g., Windows 11, Python 3.10, Chrome 123.0
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide steps that can help us reproduce the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Logs
+      description: Add any screenshots, logs, or error messages to support your bug report.
+    validations:
+      required: false
