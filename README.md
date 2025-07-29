@@ -26,19 +26,22 @@ Most organizations today are either overwhelmed by AI hype or struggle to measur
 
 GAIMM organizes AI maturity across six foundational dimensions:
 
-1. **Strategy** – Vision, leadership alignment, business value creation
-2. **Governance** – Risk management, compliance, accountability structures
-3. **Data** – Data quality, accessibility, management, and readiness
-4. **Technology** – Infrastructure, AI lifecycle tools, model ops
-5. **Talent & Culture** – Skills, mindset, collaboration, change management
-6. **Ethics & Responsibility** – Bias mitigation, transparency, fairness
+1. **Strategy & Governance** – Vision, leadership buy-in, AI policy, strategic alignment
+2. **Organization & Talent** – AI roles, upskilling, organizational structure, CoE
+3. **Data & Infrastructure** – Data quality, accessibility, tools, compute, APIs, cloud
+4. **AI Lifecycle & Operations** – Model development, validation, deployment, MLOps, monitoring
+5. **Ethics, Risk & Compliance** – Fairness, transparency, safety, regulatory readiness
+6. **Impact & Value Realization** – Use case prioritization, KPI definition, ROI, scalability
 
 Each pillar has **5 levels**:
-- L1 – Initial
-- L2 – Emerging
-- L3 – Established
-- L4 – Integrated
-- L5 – Optimized
+
+| Level  | Label                     | Description                                                                         |
+| ------ | ------------------------- | ----------------------------------------------------------------------------------- |
+| **L1** | **Exploratory**           | Ad-hoc experimentation; isolated pilots, no AI governance or structure.             |
+| **L2** | **Foundational**          | Initial strategy, emerging roles, basic use cases and compliance practices.         |
+| **L3** | **Structured**            | Centralized governance, defined processes, early scaling, risk and ethics in place. |
+| **L4** | **Enterprise-Integrated** | AI embedded across functions; measurable impact; aligned with business KPIs.        |
+| **L5** | **Transformative**        | AI drives innovation and competitiveness; adaptive, learning org; continuous value. |
 
 ---
 
