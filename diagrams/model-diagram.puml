@@ -1,0 +1,127 @@
+@startuml
+' Global AI Maturity Model (GAIMM) — Enhanced Maturity Progression View
+
+' Define Styles for Levels
+<style>
+rectangle {
+  RoundCorner 15
+  Shadowing true
+  BorderColor #333
+  FontSize 12
+  MinimumWidth 160
+  MinimumHeight 60
+  HorizontalAlignment center
+  VerticalAlignment middle
+}
+
+.level1 {
+  BackgroundColor #FFCDD2
+}
+.level2 {
+  BackgroundColor #FFF9C4
+}
+.level3 {
+  BackgroundColor #BBDEFB
+}
+.level4 {
+  BackgroundColor #C8E6C9
+}
+.level5 {
+  BackgroundColor #D1C4E9
+}
+</style>
+
+skinparam linetype ortho
+skinparam defaultTextAlignment center
+left to right direction
+
+title Global AI Maturity Model (GAIMM)
+
+package "Pillars with Maturity Levels" {
+left to right direction
+
+  package "1. Strategy & Governance" {
+    top to bottom direction
+    rectangle "Level 1\nAd-hoc vision" as SG_L1 <<level1>>
+    rectangle "Level 2\nSome leadership buy-in" as SG_L2 <<level2>>
+    rectangle "Level 3\nPolicy defined" as SG_L3 <<level3>>
+    rectangle "Level 4\nEnterprise governance" as SG_L4 <<level4>>
+    rectangle "Level 5\nProactive alignment" as SG_L5 <<level5>>
+    SG_L5 <-- SG_L4
+    SG_L4 <-- SG_L3
+    SG_L3 <-- SG_L2
+    SG_L2 <-- SG_L1
+  }
+
+  package "2. Organization & Talent" {
+    top to bottom direction
+    rectangle "Level 1\nNo AI roles" as OT_L1 <<level1>>
+    rectangle "Level 2\nScattered skills" as OT_L2 <<level2>>
+    rectangle "Level 3\nDefined CoE" as OT_L3 <<level3>>
+    rectangle "Level 4\nUpskilling & hiring" as OT_L4 <<level4>>
+    rectangle "Level 5\nEmbedded talent" as OT_L5 <<level5>>
+    OT_L5 <-- OT_L4
+    OT_L4 <-- OT_L3
+    OT_L3 <-- OT_L2
+    OT_L2 <-- OT_L1
+  }
+
+  package "3. Data & Infrastructure" {
+    top to bottom direction
+    rectangle "Level 1\nUnstructured data" as DI_L1 <<level1>>
+    rectangle "Level 2\nBasic data access" as DI_L2 <<level2>>
+    rectangle "Level 3\nData platform exists" as DI_L3 <<level3>>
+    rectangle "Level 4\nData quality enforced" as DI_L4 <<level4>>
+    rectangle "Level 5\nAI-ready infrastructure" as DI_L5 <<level5>>
+    DI_L5 <-- DI_L4
+    DI_L4 <-- DI_L3
+    DI_L3 <-- DI_L2
+    DI_L2 <-- DI_L1
+  }
+
+  package "4. AI Lifecycle & Operations" {
+    top to bottom direction
+    rectangle "Level 1\nPOCs only" as ALO_L1 <<level1>>
+    rectangle "Level 2\nIsolated dev" as ALO_L2 <<level2>>
+    rectangle "Level 3\nBasic MLOps" as ALO_L3 <<level3>>
+    rectangle "Level 4\nIntegrated pipelines" as ALO_L4 <<level4>>
+    rectangle "Level 5\nContinuous AI delivery" as ALO_L5 <<level5>>
+    ALO_L5 <-- ALO_L4
+    ALO_L4 <-- ALO_L3
+    ALO_L3 <-- ALO_L2
+    ALO_L2 <-- ALO_L1
+  }
+
+  package "5. Ethics, Risk & Compliance" {
+    top to bottom direction
+    rectangle "Level 1\nNo guardrails" as ERC_L1 <<level1>>
+    rectangle "Level 2\nAd-hoc reviews" as ERC_L2 <<level2>>
+    rectangle "Level 3\nEthics policy defined" as ERC_L3 <<level3>>
+    rectangle "Level 4\nExplainability enforced" as ERC_L4 <<level4>>
+    rectangle "Level 5\nAutomated compliance" as ERC_L5 <<level5>>
+    ERC_L5 <-- ERC_L4
+    ERC_L4 <-- ERC_L3
+    ERC_L3 <-- ERC_L2
+    ERC_L2 <-- ERC_L1
+  }
+
+  package "6. Impact & Value Realization" {
+    top to bottom direction
+    rectangle "Level 1\nNo KPIs" as IVR_L1 <<level1>>
+    rectangle "Level 2\nPilot ROI estimates" as IVR_L2 <<level2>>
+    rectangle "Level 3\nUse case prioritization" as IVR_L3 <<level3>>
+    rectangle "Level 4\nTracked KPIs" as IVR_L4 <<level4>>
+    rectangle "Level 5\nBusiness value achieved" as IVR_L5 <<level5>>
+    IVR_L5 <-- IVR_L4
+    IVR_L4 <-- IVR_L3
+    IVR_L3 <-- IVR_L2
+    IVR_L2 <-- IVR_L1
+  }
+
+"1. Strategy & Governance" -r[hidden]-> "2. Organization & Talent"
+"2. Organization & Talent" -r[hidden]-> "3. Data & Infrastructure"
+"3. Data & Infrastructure" -r[hidden]-> "4. AI Lifecycle & Operations"
+"4. AI Lifecycle & Operations" -r[hidden]-> "5. Ethics, Risk & Compliance"
+"5. Ethics, Risk & Compliance" -r[hidden]-> "6. Impact & Value Realization"
+}
+@enduml
