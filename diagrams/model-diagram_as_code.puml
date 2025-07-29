@@ -29,6 +29,14 @@ rectangle {
 .level5 {
   BackgroundColor #D1C4E9
 }
+
+legendBox {
+  FontSize 10
+  LineColor #999
+  Padding 5
+  BackgroundColor #f5f5f5
+  BorderColor #999
+}
 </style>
 
 skinparam linetype ortho
@@ -40,6 +48,7 @@ title Global AI Maturity Model (GAIMM)
 package "Pillars with Maturity Levels" {
 left to right direction
 
+  ' ----------- Pillar 1 -----------
   package "1. Strategy & Governance" {
     top to bottom direction
     rectangle "Level 1\nAd-hoc vision" as SG_L1 <<level1>>
@@ -53,6 +62,7 @@ left to right direction
     SG_L2 <-- SG_L1
   }
 
+  ' ----------- Pillar 2 -----------
   package "2. Organization & Talent" {
     top to bottom direction
     rectangle "Level 1\nNo AI roles" as OT_L1 <<level1>>
@@ -66,6 +76,7 @@ left to right direction
     OT_L2 <-- OT_L1
   }
 
+  ' ----------- Pillar 3 -----------
   package "3. Data & Infrastructure" {
     top to bottom direction
     rectangle "Level 1\nUnstructured data" as DI_L1 <<level1>>
@@ -79,6 +90,7 @@ left to right direction
     DI_L2 <-- DI_L1
   }
 
+  ' ----------- Pillar 4 -----------
   package "4. AI Lifecycle & Operations" {
     top to bottom direction
     rectangle "Level 1\nPOCs only" as ALO_L1 <<level1>>
@@ -92,6 +104,7 @@ left to right direction
     ALO_L2 <-- ALO_L1
   }
 
+  ' ----------- Pillar 5 -----------
   package "5. Ethics, Risk & Compliance" {
     top to bottom direction
     rectangle "Level 1\nNo guardrails" as ERC_L1 <<level1>>
@@ -105,6 +118,7 @@ left to right direction
     ERC_L2 <-- ERC_L1
   }
 
+  ' ----------- Pillar 6 -----------
   package "6. Impact & Value Realization" {
     top to bottom direction
     rectangle "Level 1\nNo KPIs" as IVR_L1 <<level1>>
@@ -118,10 +132,22 @@ left to right direction
     IVR_L2 <-- IVR_L1
   }
 
-"1. Strategy & Governance" -r[hidden]-> "2. Organization & Talent"
-"2. Organization & Talent" -r[hidden]-> "3. Data & Infrastructure"
-"3. Data & Infrastructure" -r[hidden]-> "4. AI Lifecycle & Operations"
-"4. AI Lifecycle & Operations" -r[hidden]-> "5. Ethics, Risk & Compliance"
-"5. Ethics, Risk & Compliance" -r[hidden]-> "6. Impact & Value Realization"
+  ' Horizontal hidden links to maintain layout
+  "1. Strategy & Governance" -r[hidden]-> "2. Organization & Talent"
+  "2. Organization & Talent" -r[hidden]-> "3. Data & Infrastructure"
+  "3. Data & Infrastructure" -r[hidden]-> "4. AI Lifecycle & Operations"
+  "4. AI Lifecycle & Operations" -r[hidden]-> "5. Ethics, Risk & Compliance"
+  "5. Ethics, Risk & Compliance" -r[hidden]-> "6. Impact & Value Realization"
 }
+
+' ---------- Legend ----------
+legend right
+|= Level |= Description |
+|<#FFCDD2>Level 1| Initial / Ad-hoc |
+|<#FFF9C4>Level 2| Reactive / Partial |
+|<#BBDEFB>Level 3| Defined / Formalized |
+|<#C8E6C9>Level 4| Managed / Scaled |
+|<#D1C4E9>Level 5| Optimized / Proactive |
+endlegend
+
 @enduml
