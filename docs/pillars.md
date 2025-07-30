@@ -117,4 +117,4 @@ GAIMM encourages holistic maturity growth across all six areas.
 
 Each pillar is assessed across five levels of maturity (L1 to L5). These levels help organizations map their current state and plan a realistic path forward.
 
-➡️ See: [docs/maturity-model.md](docs/maturity-model.md) for detailed maturity descriptors.
+➡️ See: [docs/levels.md](docs/levels.md) for detailed maturity descriptors.
