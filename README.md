@@ -49,8 +49,9 @@ Each pillar has **5 levels**:
 ```
 GAIMM/
 ├── docs/ # Pillar definitions, maturity levels, principles
+├── evaluation/ # Crtieria, questions and toolkit to conduct evaluation (audience: users)
 ├── diagrams/ # Visual representations (e.g. PlantUML, SVGs)
-├── tools/ # Templates, assessment checklists, automation scripts
+├── tools/ # Templates, assessment checklists, automation scripts (audience: GAIMM team)
 ├── examples/ # Industry-specific use cases and implementation stories
 ├── contributions/ # Community-submitted enhancements
 ├── .github/ # Contributing guidelines, issue templates
