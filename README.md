@@ -26,6 +26,8 @@ Most organizations today are either overwhelmed by AI hype or struggle to measur
 
 GAIMM organizes AI maturity across six foundational dimensions:
 
+![GAIMM Model Diagram](https://raw.githubusercontent.com/jags-programming/Global-AI-Maturity-Model/main/diagrams/GAIMM%20model%20diagram.png)
+
 1. **Strategy & Governance** – Vision, leadership buy-in, AI policy, strategic alignment
 2. **Organization & Talent** – AI roles, upskilling, organizational structure, CoE
 3. **Data & Infrastructure** – Data quality, accessibility, tools, compute, APIs, cloud
