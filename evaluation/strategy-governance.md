@@ -52,6 +52,4 @@ This document defines detailed evaluation criteria for assessing organizational 
 4. **Strategic Capital Allocation:** AI funding is integrated into long-term capital planning.
 5. **Vision as Culture:** AI vision is part of organizational identity and drives innovation culture.
 
----
 
-Let me know if you'd like to proceed with defining criteria for the next pillar (e.g., Organization & Talent).
