@@ -1,79 +1,91 @@
-# GAIMM Maturity Levels
+# 🌐 GAIMM Maturity Levels
 
-The Global AI Maturity Model (GAIMM) defines **five maturity levels** to help organizations assess and improve their AI capabilities in a structured and progressive manner. These levels apply consistently across each of the six pillars.
-
----
-
-## Level 1: Initiated
-
-**Description**  
-AI activities are ad-hoc, isolated, and primarily exploratory. There is limited awareness of risks or opportunities, and no cohesive strategy.
-
-**Indicators**  
-- AI use is opportunistic and project-based  
-- No centralized AI governance or guidelines  
-- Limited awareness of ethical and regulatory considerations  
-- Minimal documentation or knowledge sharing  
-- Success depends on individual champions
+The **Global AI Maturity Model (GAIMM)** defines **five progressive maturity levels** that describe an organization’s journey from isolated experimentation to enterprise-wide transformation through AI. These levels apply to **each of the six pillars** of AI maturity.
 
 ---
 
-## Level 2: Experimented
+## 🟤 Level 1: Exploratory
+
+> _Ad-hoc experimentation; isolated pilots, no AI governance or structure._
 
 **Description**  
-Initial experiments are conducted with some repeatable patterns. Early lessons are being learned, and teams start identifying AI-specific needs.
+Organizations are in the earliest phase of AI maturity. Initiatives are opportunistic, conducted by individual teams without coordination, standards, or long-term planning.
 
 **Indicators**  
-- Pilot projects exist with documented outcomes  
-- Teams begin to recognize data quality and bias issues  
-- Use of open-source or off-the-shelf models increases  
-- Early conversations on governance, risk, and ethics  
-- Isolated pockets of talent and reusable assets
+- Disconnected AI initiatives driven by local needs  
+- No formal strategy or AI leadership  
+- Lack of standardized tools, processes, or governance  
+- No risk, ethics, or compliance considerations  
+- Success depends on isolated champions or innovation units  
 
 ---
 
-## Level 3: Operationalized
+## 🟠 Level 2: Foundational
+
+> _Initial strategy, emerging roles, basic use cases and compliance practices._
 
 **Description**  
-AI capabilities are integrated into business processes. Teams develop repeatable deployment, monitoring, and governance practices.
+Organizations begin to build basic structures for AI. Strategy and leadership interest emerge, and early roles and responsibilities are defined. Governance and compliance start taking shape.
 
 **Indicators**  
-- AI/ML systems deployed in production with support  
+- AI is included in strategic discussions  
+- Initial governance conversations and frameworks  
+- Emerging roles such as data scientists and ML engineers  
+- Data management and compliance practices are introduced  
+- Limited but repeatable pilot projects  
+
+---
+
+## 🟡 Level 3: Structured
+
+> _Centralized governance, defined processes, early scaling, risk and ethics in place._
+
+**Description**  
+AI capabilities are centralized, standardized, and supported by consistent processes. Organizations invest in formal governance, risk management, and early scaling.
+
+**Indicators**  
+- Centralized AI governance body or steering committee  
 - MLOps practices adopted (CI/CD, monitoring, retraining)  
-- Clear ownership of AI systems  
-- AI included in risk management and compliance reviews  
-- Cross-functional collaboration is established
+- Cross-functional collaboration between tech and business  
+- Ethical guidelines defined and integrated  
+- AI systems deployed and maintained in production  
 
 ---
 
-## Level 4: Managed
+## 🟢 Level 4: Enterprise-Integrated
+
+> _AI embedded across functions; measurable impact; aligned with business KPIs._
 
 **Description**  
-AI is recognized as a strategic capability. There is standardization, proactive risk mitigation, and alignment with organizational goals.
+AI becomes a strategic enabler across the enterprise. Capabilities are well-managed, measurable, and aligned with broader business goals. Risk and ethics are integrated into delivery.
 
 **Indicators**  
-- Enterprise-wide AI governance framework implemented  
-- KPIs defined for measuring AI performance and impact  
+- AI included in enterprise KPIs and performance reviews  
 - Responsible AI principles operationalized  
-- Talent and tools consolidated into AI centers of excellence  
-- Feedback loops inform continuous improvement
+- AI Centers of Excellence (CoEs) established  
+- Cross-functional delivery teams at scale  
+- Feedback loops from business outcomes influence AI roadmaps  
 
 ---
 
-## Level 5: Optimized
+## 🔵 Level 5: Transformative
+
+> _AI drives innovation and competitiveness; adaptive, learning org; continuous value._
 
 **Description**  
-AI is deeply embedded in culture, decision-making, and innovation. Capabilities are continuously improved, with lessons shared across the ecosystem.
+AI is embedded into the organization's DNA. It drives continuous innovation and business transformation. The organization is adaptive, ethical, and forward-looking.
 
 **Indicators**  
-- AI drives measurable business transformation  
-- AI innovation is incentivized and continuously funded  
-- Models learn and adapt in near-real-time  
-- Organization contributes to AI standards and thought leadership  
-- Strong external collaborations and open-source contributions
+- AI is a driver of competitive advantage  
+- Continuous improvement of models and pipelines  
+- Organization contributes to AI thought leadership and standards  
+- Strong external partnerships and open innovation  
+- AI innovation funding is sustained and forward-looking  
 
 ---
 
-## How to Use These Levels
+## 📊 How to Use These Levels
 
-Each pillar of GAIMM (e.g., Data Readiness, Ethics, Talent, etc.) can be evaluated independently across these five levels. This enables a **multi-dimensional view** of an organization’s AI maturity, supporting both benchmarking and targeted improvement planning.
+Each of the six GAIMM pillars (such as Talent, Data, Ethics, etc.) can be assessed **individually** using these levels. This helps organizations create a **maturity heatmap** to guide transformation, identify gaps, and benchmark progress across domains.
+
+➡️ For pillar-specific evaluation criteria, see: [`docs/pillars.md`](pillars.md)
